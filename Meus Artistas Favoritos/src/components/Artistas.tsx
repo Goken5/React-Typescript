@@ -19,7 +19,7 @@ function PinkFloyd(){
     return(
         <div id="PinkFloydDiv" className="flex flex-col w-[30vw] m-5 items-center text-center">
             <img src={PinkFloydImg} alt="Pink Floyd" className="h-[300px] w-[300px]"/>
-            <a href="" className="text-3xl text-white underline hover:scale-110 transition-all font-bold">Pink Floyd</a>
+            <Link to="/pinkfloyd" className="text-3xl text-white underline hover:scale-110 transition-all font-bold">Pink Floyd</Link>
             <p className="text-white text-2xl">Pink Floyd é uma das bandas mais famosas e bem sucecidas de Rock Psicodélico, criada em 1965.</p>
         </div>
     )

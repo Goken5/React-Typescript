@@ -3,7 +3,7 @@ import AlbunsTI from "../components/AlbunsTI"
 
 function TameImpala(){
     return(
-        <div className=" bg-indigo-900 h-full">
+        <div className=" bg-cyan-800 h-full">
             <Header mode="tameimpala"/>
             <div id="albuns">
                 <div id="titulos" className="flex justify-between">

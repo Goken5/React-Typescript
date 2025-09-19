@@ -14,8 +14,16 @@ function MainHeader(){
 }
 function TameImpalaHeader(){
     return(
-        <header className="flex items-center h-[60px] bg-indigo-950 w-full justify-between m-0">
+        <header className="flex items-center h-[60px] bg-cyan-950 w-full justify-between">
             <h1 className="text-3xl text-white font-serif ml-5">Tame Impala</h1>
+            <Link to="/main" className="text-3xl text-white font-serif mr-5 hover:scale-110 transition-all">Página Inicial</Link>
+        </header>
+    )
+}
+function PinkFloydHeader(){
+    return(
+        <header className="flex items-center h-[60px] bg-pink-950 w-full justify-between">
+            <h1 className="text-3xl text-white font-serif ml-5">Pink Floyd</h1>
             <Link to="/main" className="text-3xl text-white font-serif mr-5 hover:scale-110 transition-all">Página Inicial</Link>
         </header>
     )
@@ -26,6 +34,7 @@ function Header({ mode } : HeaderProps){
             {(() => {
                 if(mode === "main") return <MainHeader />
                 if(mode === "tameimpala") return <TameImpalaHeader />
+                if(mode === "pinkfloyd") return <PinkFloydHeader />
                 return null;
             })()}
        </div>
