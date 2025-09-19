@@ -2,6 +2,7 @@ import PiperGatesImg from "../assets/img/PiperGates.jpg"
 import WishYouWereHereImg from "../assets/img/WishYouWereHere.jpg"
 import DarkSideImg from "../assets/img/DarkSide.jpg"
 import MomentaryLapseImg from "../assets/img/MomentaryLapseOfReason.jpg"
+import DivisionBellImg from "../assets/img/TheDivisionBell.jpg"
 
 type AlbunsPFProps = {
     album: string;
@@ -31,18 +32,32 @@ function DarkSideOfReason(){
         <div id="tudo" className="flex justify-between">
             <div id="DarkSide" className="flex">
                 <img src={DarkSideImg} alt="The Dark Side of The Moon" className="w-[300px] h-[300px]" />
-                <div id="DarkSideTxt">
+                <div id="DarkSideTxt" className="w-[30vw] m-5">
                     <h1 className="text-3xl text-white font-semibold">The Dark Side Of The Moon</h1>
                     <p className="text-2xl text-white">The Dark Side Of The Moon foi o oitavo e mais famoso álbum do Pink Floyd, lançado em 1973, o álbum é considerado por muitos, o melhor álbum da história do rock, ele tem ótimas transições, principalmente se levarmos em consideração o ano em que foi lançado, e tem músicas muito conhecidas como: "Money", "Breathe(In the Air", "Time" entre outros.</p>
                 </div>
             </div>
             <div id="MomentaryLapse" className="flex">
-                <div id="MomentaryLapseTxt">
+                <div id="MomentaryLapseTxt" className="w-[30vw] m-5">
                     <h1 className="text-3xl text-white font-semibold">A Momentary Lapse Of Reason</h1>
                     <p className="text-2xl text-white">A Momentary Lapse Of Reason foi o décimo terceiro disco da banda, lançado em 1987, é meu favorito da banda, é um álbum extremamente subestimado, com ótimas músicas e uma capa incrível, simplesmente 700 camas de hospital em uma praia, colocadas uma por uma, e além disso, a capa é cheia de referências a músicas do álbum como "Learning to Fly" e "Dogs of War". </p>
                 </div>
                 <img src={MomentaryLapseImg} alt="A Momentary Lapse Of Reason" className="w-[300px] h-[300px]" />
             </div>
+        </div>
+    )
+}
+function TheDivisionBell(){
+    return(
+        <div id="tudo" className="flex justify-center">
+            <div id="DivisionBell" className="flex">
+                <img src={DivisionBellImg} alt="The Division Bell" className="w-[300px] h-[300px]" />
+                <div id="DivisionBellTxt" className="w-[30vw] m-5">
+                    <h1 className="text-3xl text-white font-semibold">The Division Bell</h1>
+                    <p className="text-2xl text-white">The Division Bell foi o décimo quarto álbum da banda Pink Floyd, lançado em 1994, o álbum fala sobre a falta de comunicação, onde muitas músicas referenciam isso, como em "Wearing the Inside Out" onde temos citações como "It's Been so long since I spoke", também referencias em "Lost for Words" e "Keep Talking", que o próprio título já dá a entender essa falta de comunicação.</p>
+                </div>
+            </div>
+
         </div>
     )
 }
@@ -52,6 +67,7 @@ function AlbunsPF({ album } : AlbunsPFProps){
             {(() => {
                 if(album === "piperwish") return <PiperWish />
                 if(album === "darksideofreason") return <DarkSideOfReason />
+                if(album === "divisionbell") return <TheDivisionBell />
                 return null;
             })()}
         </div>

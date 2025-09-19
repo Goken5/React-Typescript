@@ -66,7 +66,7 @@ function Currents(){
             <div id="LetItHappen" className="flex">
                 <div id="LetItHappenTxt" className="w-[30vw] m-5 ">
                     <h1 className="text-3xl text-white font-semibold">Let It Happen</h1>
-                    <p className="text-2xl text-white">Let It Happen, como dito anteriormente, é minha música favorita de todas, é uma música que fala sobre aceitar o destino e não tentar interferir em nada, sendo um pouco conformista. A presença de sintetizadorers, guitarra, baixo, bateria, todos os instrumentos juntos, tendo sidos inteiramente gravados por Kevin Parker são simplesmente incríveis, o solo é uma das partes mais importantes da música, sendo uma junção perfeita de Guitarra, Baixo e Bateria no mesmo ritmo. Eu amo essa música com todo meu coração.</p>
+                    <p className="text-2xl text-white">Let It Happen é minha música favorita de todas, é uma música que fala sobre aceitar o destino e não tentar interferir em nada, sendo um pouco conformista. A presença de sintetizadorers, guitarra, baixo, bateria, todos os instrumentos juntos, tendo sidos inteiramente gravados por Kevin Parker são simplesmente incríveis, o solo é uma das partes mais importantes da música, sendo uma junção perfeita de Guitarra, Baixo e Bateria no mesmo ritmo. Eu amo essa música com todo meu coração.</p>
                 </div>
                 <img src={LetItHappenImg} alt="Let It Happen" className="w-[300px] h-[300px]" />
             </div>
