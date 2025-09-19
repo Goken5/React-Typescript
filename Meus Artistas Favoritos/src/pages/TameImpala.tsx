@@ -12,6 +12,9 @@ function TameImpala(){
                 </div>
                 <AlbunsTI album="innerspeaker"/>
                 <AlbunsTI album="lonerism" />
+                <AlbunsTI album="currents" />
+                <AlbunsTI album="theslowrush" />
+                <AlbunsTI album="deadbeat" />
             </div>
         </div>
     )
