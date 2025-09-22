@@ -10,6 +10,8 @@ function RedHotChiliPeppers(){
                     <h1 className="text-4xl font-bold text-white m-5">Principais Álbuns</h1>
                 </div>
                 <AlbunsRHCP album="bythefornication" />
+                <AlbunsRHCP album="stadiumsexmagik" />
+                <AlbunsRHCP album="dosed" />
             </div>
         </div>
     )

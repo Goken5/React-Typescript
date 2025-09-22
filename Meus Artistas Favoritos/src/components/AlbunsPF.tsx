@@ -29,7 +29,7 @@ function PiperWish(){
 }
 function DarkSideOfReason(){
     return(
-        <div id="tudo" className="flex justify-between">
+        <div id="tudo" className="flex justify-between mt-30">
             <div id="DarkSide" className="flex">
                 <img src={DarkSideImg} alt="The Dark Side of The Moon" className="w-[300px] h-[300px]" />
                 <div id="DarkSideTxt" className="w-[30vw] m-5">
@@ -49,7 +49,7 @@ function DarkSideOfReason(){
 }
 function TheDivisionBell(){
     return(
-        <div id="tudo" className="flex justify-center">
+        <div id="tudo" className="flex justify-center mt-30">
             <div id="DivisionBell" className="flex">
                 <img src={DivisionBellImg} alt="The Division Bell" className="w-[300px] h-[300px]" />
                 <div id="DivisionBellTxt" className="w-[30vw] m-5">
