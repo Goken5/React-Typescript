@@ -6,7 +6,7 @@ type HeaderProps = {
 function MainHeader(){
     return (
         <header className="flex items-center h-[60px] bg-black w-[100vw] justify-between">
-            <Link to="/main" className="text-3xl text-white font-serif ml-5 hover:scale-110 transition-all">Meus Artistas Favoritos</Link>
+            <Link to="/main" className="text-3xl text-white font-serif ml-5 hover:scale-110 transition-all">Artistas Favoritos</Link>
             <Link to="/aboutme" className="text-3xl text-white font-serif mr-5 hover:scale-110 transition-all">Sobre Mim</Link>
         </header>
         
@@ -28,6 +28,14 @@ function PinkFloydHeader(){
         </header>
     )
 }
+function RedHotHeader(){
+    return(
+        <header className="flex items-center h-[60px] bg-red-950 w-full justify-between">
+            <h1 className="text-3xl text-white font-serif ml-5">Red Hot Chilli Peppers</h1>
+            <Link to="/main" className="text-3xl text-white font-serif mr-5 hover:scale-110 transition-all">Página Inicial</Link>
+        </header>
+    )
+}
 function Header({ mode } : HeaderProps){
     return (
        <div>
@@ -35,6 +43,7 @@ function Header({ mode } : HeaderProps){
                 if(mode === "main") return <MainHeader />
                 if(mode === "tameimpala") return <TameImpalaHeader />
                 if(mode === "pinkfloyd") return <PinkFloydHeader />
+                if(mode === "redhot") return<RedHotHeader />
                 return null;
             })()}
        </div>

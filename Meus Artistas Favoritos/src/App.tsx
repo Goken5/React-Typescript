@@ -3,6 +3,7 @@ import MainPage from "./pages/MainPage"
 import AboutMe from "./pages/AboutMe"
 import TameImpala from "./pages/TameImpala"
 import PinkFloyd from "./pages/PinkFloyd"
+import RedHotChiliPeppers from "./pages/RedHot"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/tameimpala" element={<TameImpala />} />
       <Route path="/pinkfloyd" element={<PinkFloyd />} />
+      <Route path="/redhotchilipeppers" element={<RedHotChiliPeppers />} />
     </Routes>
       
   )

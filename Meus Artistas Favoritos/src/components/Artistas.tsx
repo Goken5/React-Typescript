@@ -28,7 +28,7 @@ function RedHot(){
     return(
         <div id="RedHotChiliPeppersDiv" className="flex flex-col w-[30vw] m-5 items-center text-center">
             <img src={RedHotChiliPeppers} alt="Red Hot Chili Peppers" className="h-[300px] w-[300px]" />
-            <a href="" className="text-3xl text-white underline hover:scale-110 transition-all font-bold">Red Hot Chili Peppers</a>
+            <Link to="/redhotchilipeppers" className="text-3xl text-white underline hover:scale-110 transition-all font-bold">Red Hot Chili Peppers</Link>
             <p className="text-white text-2xl">Red Hot Chili Peppers é uma das bandas Americanas mais famosas do mundo, criada em 1983.</p>
         </div>
     )

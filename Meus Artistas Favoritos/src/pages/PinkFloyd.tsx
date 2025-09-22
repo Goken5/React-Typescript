@@ -9,9 +9,9 @@ function PinkFloyd(){
                 <div id="titulos" className="flex justify-center">
                     <h1 className="text-4xl font-bold text-white m-5">Principais Álbuns</h1>
                 </div>
-                    <AlbunsPF album="piperwish" />
-                    <AlbunsPF album="darksideofreason" />
-                    <AlbunsPF album="divisionbell" />
+                <AlbunsPF album="piperwish" />
+                <AlbunsPF album="darksideofreason" />
+                <AlbunsPF album="divisionbell" />
             </div>
         </div>
     )
